@@ -1,0 +1,40 @@
+{
+    "name" : "PD2_Money",
+    "description" : "You can add some money to your account. (CHECK KEYBINDS)\n\nUpdate: github.com/FatBolid",
+    "author" : "Booldy (FatBolid)",
+    "image" : "logo.png"
+    "version" : "1.0",
+    "contact" : "Bolid#0001",
+    "priority" : 500,
+	"color": "36 36 36",
+    "keybinds" : [
+        {
+            "keybind_id" : "[",
+            "name" : "Add some money to offshore account",
+            "description" : " "
+            "script_path" : "add_offshore_money.lua",
+            "run_in_menu" : true,
+            "run_in_game" : true,
+            "localized" : false,
+        },
+        {
+            "keybind_id" : "]",
+            "name" : "Add some money to spending cash",
+            "description" : " "
+            "script_path" : "add_spending_money.lua",
+            "run_in_menu" : true,
+            "run_in_game" : true,
+            "localized" : false,
+        }
+    ]
+    "updates": [
+		{
+			"identifier" : "PD2_Money",
+			"host": {
+				"meta": "https://github.com/FatBolid",
+				"download": "https://github.com/FatBolid",
+				"patchnotes": "https://github.com/FatBolid"
+			}
+		}
+	],
+}
